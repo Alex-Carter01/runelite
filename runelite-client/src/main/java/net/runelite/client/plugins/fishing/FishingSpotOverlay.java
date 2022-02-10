@@ -156,7 +156,7 @@ class FishingSpotOverlay extends Overlay
 
 				if (poly != null)
 				{
-					OverlayUtil.renderPolygon(graphics, poly, color.darker());
+					OverlayUtil.renderPolygon(graphics, poly, Color.BLACK, new Color(238,48,237), new BasicStroke(2));
 				}
 			}
 
